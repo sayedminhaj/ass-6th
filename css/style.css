@@ -1,0 +1,235 @@
+.no-padding{
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.logo{
+	padding-top: 1%;
+    margin-left: 11%;
+}
+.banner{
+
+	background: url(../img/wal.jpg)no-repeat;
+	background-size: cover;
+}
+.banner-section{
+	text-align: center;
+	
+}
+.banner-section h1{
+	color: #ffffff;
+    font-size: 120px;
+    padding-top: 220px;
+}
+.banner-section span{
+	border-bottom: 2px solid #15A4FA;
+    width: 404px;
+    display: block;
+    margin: 18px auto;
+}
+.banner-section p{
+	font-size: 16px;
+    margin-top: 19px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.banner-section button{
+	display: inline-block;
+    background: transparent;
+    padding: 11px 19px;
+    border: 1px solid #03A9F4;
+    color: #fbf7f8;
+    padding: 0px autp;
+    border-radius: 6px;
+    margin-top: 8%;
+    transition: .4s ease;
+
+}
+.fa.fa-angle-down{
+
+}
+.about{
+	background-color: #fff;
+	background-size: cover;
+	width: 100%;
+}
+.about-section{
+	margin-top: 5%;
+    text-align: center;
+
+}
+.about-section h1{
+	font-size: 28px;
+    color: #2d3950;
+
+}
+.about-section p{
+	text-align: center;
+    font-size: 15px;
+    padding: 23px 125px;
+    color: #a0a0a0;
+
+}
+
+.information-section{
+	float: left;
+    margin-top: 10%;
+    width: 100%;
+}
+.info-one{
+	width: 25%;
+    float: left;
+
+}
+.info-one span{
+	background: #5fc3ff;
+    color: #fff;
+    padding: 15px 24px;
+    margin: 0px 104px;
+
+}
+.info-one h2{
+	margin-top: 10%;
+    margin-bottom: -1px;
+    color: #2d3950;
+    padding: 0px 63px;
+    font-size: 15px;
+}
+.info-one p{
+	text-align: center;
+    font-size: 11px;
+    padding: 7px 49px;
+}
+	
+}
+
+/*portfolio*/
+.portfolio{
+	background-color: #F6F9F9;
+}
+.tittle-port{
+	text-align: center;
+    padding: 50px 0px;
+}
+.row{
+	display: flex;
+}
+.image-hover{
+	position: relative;
+    overflow: hidden;
+}
+.image-hover-content{
+	position: absolute;
+    width: 100%;
+    background-color: #2196f3ab;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    transition: 0.5s ease-in-out;
+	
+}
+.link-icon ul{
+	list-style: none;
+}
+.fa.fa-search{
+	border: 1px solid #fff;
+    padding: 6px 10px;
+	position: absolute;
+    top: 47%;
+    color: #fff;
+    font-size: 20px;
+    left: 37%;
+	
+}
+.fa.fa-link{
+	border: 1px solid #fff;
+    padding: 6px 10px;
+	position: absolute;
+    top: 47%;
+    font-size: 20px;
+    color: #fff;
+    left: 50%;
+}
+
+.image-hover:hover
+
+.image-hover-content{
+	right: 0%;
+}
+
+.portfolio h1{
+
+}
+
+.img-section{
+	padding: 8px;
+
+}
+.img-fluid {
+	float: left;
+}
+/*portfolio*/
+
+/*message*/
+.message-submit{
+	background: url(../img/mess.jpg)no-repeat;
+	background: cover;
+}
+
+.message-section{
+	color: #fff;
+	text-align: center;
+	padding: 5%;
+}
+.message-section h2{
+
+}
+.message-section p{
+
+}
+.Contact-form{
+
+}
+.from-control{
+	margin: 3px 315px;
+    width: 48%;
+    height: 22px;
+    float: left;
+    background-color: transparent;
+    padding: 10px 13px;
+    border: 1px solid #fff;
+}
+
+.Contact-form textarea{
+	width: 48%;
+    padding: 7px 14px;
+    margin: 15px 316px;
+    margin-top: 19px 31px;
+    height: 137px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.form-bottom{
+	color: #fff;
+    overflow: hidden;
+    margin: 0px 315px;
+
+}
+.form-left{
+
+}
+.form-right{
+	float: right;
+	margin-top: -6%
+}
+.Submit-Button{
+	border: 1px solid #15a4fa;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 40px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+/*message*/
